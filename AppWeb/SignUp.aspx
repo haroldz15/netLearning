@@ -57,7 +57,10 @@
   </div>
  <div class="input-group form-group">
     <asp:TextBox ID="inputPassword" runat="server" TextMode="Password" class="form-control"  placeholder="Enter password" required="required" autocomplete="off"></asp:TextBox>
-  </div>
+     <span class="input-group-addon">
+        <i class="fa fa-search"></i>
+    </span> 
+ </div>
  <div class="input-group form-group">
     <asp:TextBox ID="inputPassword2" runat="server" TextMode="Password" class="form-control"  placeholder="Repeat password" required="required" autocomplete="off"></asp:TextBox>
   </div>
